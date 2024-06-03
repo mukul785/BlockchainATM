@@ -1,12 +1,20 @@
-# Starter Next/Hardhat Project
+# BlockchainATM
+This is a blockchain based ATM in which we can avail many of the banking services.
 
-After cloning the github, you will want to do the following to get the code running on your computer.
+## Description:
+In this prject I have created a ATM which can deposit, withdraw, transfer funds and also can request, approve and repay Loans using react.js, ether.js and solidity based smart contract using functions and displayed them on frontened using react.js.
 
-1. Inside the project directory, in the terminal type: npm i
-2. Open two additional terminals in your VS code
-3. In the second terminal type: npx hardhat node
-4. In the third terminal, type: npx hardhat run --network localhost scripts/deploy.js
-5. Back in the first terminal, type npm run dev to launch the front-end.
+## Getting Started:
+Clone the github repository using
+git clone https://github.com/mukul785/BlockchainATM.git
 
-After this, the project will be running on your localhost. 
-Typically at http://localhost:3000/
+## Now to run the code:
+Inside the project directory, in the terminal type: npm i
+Then, type: `npm install --save @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons @fortawesome/fontawesome-svg-core`
+Open two additional terminals in your VS code
+In the second terminal type: npx hardhat node
+In the third terminal, type: npx hardhat run --network localhost scripts/deploy.js
+Back in the first terminal, type npm run dev to launch the front-end.
+After this, the project will be running on your localhost. Typically at http://localhost:3000/
+
+Authors: Mukul Dagar @mukul785
