@@ -6,15 +6,15 @@ In this prject I have created a ATM which can deposit, withdraw, transfer funds 
 
 ## Getting Started:
 Clone the github repository using
-git clone https://github.com/mukul785/BlockchainATM.git
+`git clone https://github.com/mukul785/BlockchainATM.git`
 
 ## Now to run the code:
-Inside the project directory, in the terminal type: npm i
-Then, type: `npm install --save @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons @fortawesome/fontawesome-svg-core`
-Open two additional terminals in your VS code
-In the second terminal type: npx hardhat node
-In the third terminal, type: npx hardhat run --network localhost scripts/deploy.js
-Back in the first terminal, type npm run dev to launch the front-end.
-After this, the project will be running on your localhost. Typically at http://localhost:3000/
+Inside the project directory, in the terminal type: `npm i`<br>
+Then, type: `npm install --save @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons @fortawesome/fontawesome-svg-core`<br>
+Open two additional terminals in your VS code<br>
+In the second terminal type: `npx hardhat node`<br>
+In the third terminal, type: `npx hardhat run --network localhost scripts/deploy.js`<br>
+Back in the first terminal, type: `npm run dev` to launch the front-end.<br>
+After this, the project will be running on your localhost. Typically at http://localhost:3000/<br>
 
 Authors: Mukul Dagar @mukul785
