@@ -1,0 +1,110 @@
+.container{
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: 90vw;
+    margin: 5rem auto;
+    box-shadow: 1px 1px 20px 2px rgba(0, 150, 209, 0.4);
+    text-align: center;
+}
+.header{
+    color: rgb(7, 176, 244);
+    font-size: 0.75rem;
+    margin-left: 1.25rem;
+}
+.con_btn_title{
+    margin-top: 2rem;
+    font-size: 0.75rem;
+}
+.con_btn {
+    background: skyblue;
+    outline: none;
+    border: none;
+    border-radius: 0.25rem;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+    font-weight: 900;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: all ease-in-out 0.5s;
+}
+
+.con_btn::before {
+    content: '';
+    position: absolute;
+    top: var(--mouse-y, 50%);
+    left: var(--mouse-x, 50%);
+    width: 0;
+    height: 0;
+    background: rgb(7, 176, 244);
+    transition: width 1s ease, height 1s ease;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+
+.con_btn:hover::before {
+    width: 300%;
+    height: 300%;
+}
+
+.con_btn_content {
+    position: relative;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.acc_folio{
+    background-color: rgba(41, 41, 255, 0.2);
+    width: 80vw;
+    margin: 1rem auto;
+    padding: 1rem;
+    display: grid;
+    gap: 0.75rem;
+}
+.acc_details{
+    background-color: rgb(255, 119, 34);
+    height: 100px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding: 1rem;
+}
+.wallet_address{
+    font-size: 2vw;
+}
+.transactions{
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.tr_child{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.tr_child:hover{
+    background-color: whitesmoke;
+}
+.loan{
+    background-color: rgb(19,136,8);
+    height: 100px;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loan_child{
+    cursor: pointer;
+    height: 50px;
+    border-radius: 0.25rem;
+    margin: 0.05rem;
+}
+.loan_child:hover{
+    height: 70px;
+    transition: all ease-in-out 0.2s;
+}
